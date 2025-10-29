@@ -1,25 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Index Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Personal - Miguel Angel Rodriguez</title>
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    <h1>Mi Portfolio</h1>
-    <p>Este es mi portafolio personal donde dejare todos los ejercicios realizado en el curso.</p>
-    <ul>
-        <li><a href="Programacion/python/">Ejercicios Python</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="python.py">Hola mundo en Python</a></li>
-    </ul>
-    <h1>Mi blog</h1>
-    <p>La teoria.</p>
-    <ul>
-        <li><a href="evolucion%20web">Ejercicio 1</a></li>
-        <li><a href="mi-primer-articulo">Mi primer artículo</a></li>
-        <p>O también podemos construir directamente el blog en HTML5 en la misma página principal: La evolución de la web ha transformado radicalmente la forma en que interactuamos con la información y las personas. Desde sus inicios como páginas estáticas en la Web 1.0, pasando por la interactividad y el contenido generado por usuarios en la Web 2.0, hasta llegar a la Web 3.0, donde la inteligencia artificial y la descentralización juegan un papel fundamental, la web ha sido clave en el desarrollo tecnológico y social de la humanidad. </p>
-    </ul>
+
+    <header>
+        <div class="logo">
+            <a href="index.html">Mi Portafolio</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">Acerca de Mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="services.html">Servicios</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="hero" class="hero-section">
+            <h1>Hola, soy Miguel</h1>
+            <p>Desarrollador web en practicas Este es mi portafolio personal donde demuestro mis habilidades y proyectos. ¡Bienvenido!</p>
+            <a href="#projects" class="button-cta">Ver Proyectos</a>
+        </section>
+
+        <section id="about" class="content-section">
+            <h2>Acerca de Mí</h2>
+            <p>La evolución de la web ha transformado radicalmente la forma en que interactuamos con la información y las personas. Desde sus inicios en la Web 1.0, hasta la Web 3.0 con la inteligencia artificial y la descentralización. [Añade aquí tu perfil profesional y experiencia].</p>
+            
+            <p>Portafolio anterior (enlace de referencia): <a href="https://sites.google.com/d/1bl38AX7IRw1EOXPFIJufHS_LHYgEs6R1/p/1HFXYw3GdRbT4KSlpmN2WLisasxwOFYUJ/edit" target="_blank">Ver aquí</a>.</p>
+
+        </section>
+
+        <section id="projects" class="content-section">
+            <h2>Proyectos & Ejercicios</h2>
+            <p>Una muestra de mis ejercicios de curso y trabajos destacados.</p>
+            
+            <div class="project-grid">
+                <article class="project-card">
+                    <h3>Ejercicios Python</h3>
+                    <p>Una colección de ejercicios de programación para practicar los fundamentos de Python.</p>
+                    <a href="Programacion/python/" class="project-link">Ver Carpeta</a>
+                </article>
+
+                <article class="project-card">
+                    <h3>Hola mundo en Python</h3>
+                    <p>Mi primer script: un sencillo "Hola mundo" para verificar el entorno de desarrollo.</p>
+                    <a href="python.py" class="project-link">Ver Archivo</a>
+                </article>
+
+                <article class="project-card">
+                    <h3>Mi Primer Artículo</h3>
+                    <p>Un breve texto sobre la teoría detrás de la evolución web.</p>
+                    <a href="mi-primer-articulo" class="project-link">Leer Más</a>
+                </article>
+
+                </div>
+        </section>
+        
+        <section id="contact" class="content-section contact-section">
+            <h2>¿Listo para empezar un proyecto?</h2>
+            <p>Contáctame para discutir oportunidades de colaboración o empleo.</p>
+            <a href="contact.html" class="button-cta primary-button">Contáctame Ahora</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mi Portafolio. Todos los derechos reservados.</p>
+        </footer>
+
 </body>
 </html>
